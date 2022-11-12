@@ -1,0 +1,51 @@
+.HowItWorks_Box{
+    color:#001141;
+    width: 23%;
+}
+
+.HowItWorks_Image{
+    margin: auto;
+    border-radius:100px;
+}
+
+.HowItWorks_Heading{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.HowItWorks_Desc{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.HowItWorks_Href{
+    font-size: 15px;
+    text-decoration: underline;
+    color: #8a3ffc;
+}
+
+@media screen and (max-width : 1095) {
+    
+    
+.HowItWorks_Heading{
+    font-size: 1.3rem;
+}
+
+.HowItWorks_Desc{
+    font-size: 10px;
+}
+
+.HowItWorks_Href{
+    font-size: 10px;
+}
+
+}
+
+@media screen and (max-width : 860px){
+
+    .HowItWorks_Box{
+        margin: auto;
+        width: 80%;
+    }
+}

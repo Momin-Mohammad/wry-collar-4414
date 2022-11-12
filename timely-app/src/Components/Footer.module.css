@@ -1,0 +1,270 @@
+
+.Footer_main_box{
+    background-image: linear-gradient(309deg,#fff,#e2dfec 81%,#e1dfec);
+    padding: 2% 10% 2% 10%;
+    color: rgba(0, 15, 56, 0.8);
+}
+
+.designedBy{
+    font-size: 15.85px;
+}
+
+.designedBy > span{
+    font-weight: 600;
+}
+
+.boatImage_stack{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.boatImage{
+    width:5%;
+    margin:auto;
+    margin-bottom:-28px;
+    object-fit: cover
+}
+
+.Footer_Box{
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.memoryLogo_Box{
+    width : 45%;
+    padding: 8px;
+}
+
+.memoryLogo_Box:hover{
+    width : 50%;
+}
+
+.memoryLogo{
+    width: 100%;
+}
+
+.spacerDiv{
+    width: 30%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    height:1.5px;
+    background:rgb(169, 166, 166);
+}
+
+.achievements{
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.achievement_banner{
+    width: 33%;
+    height: 85px;
+}
+
+.GetStartedButton{
+    display: flex;
+   align-items: flex-start;
+}
+
+.getTimelyHeading{
+    color: #001141;
+    text-align: start;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.storesImgBox{
+    width: 80%;
+    display: flex;
+    align-items: flex-start;
+    gap:5px;
+}
+
+.storesImage{
+    width : 85%;
+    height: 80%;
+}
+
+.Footer_content_Box1{
+    width: 35%;
+    margin-right: 10%;
+}
+
+.Footer_content_Box2{
+  width: 55%;
+}
+
+.Footer_content_heading{
+    color: #001141;
+    font-size: 20px;
+    font-weight:600;
+}
+
+.Footer_content_subheading{
+    font-size: 13px;
+    color: rgba(56,49,68,.6);
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.Footer_content_subheading:hover{
+    color:#8a3ffc;
+}
+
+.footer_end_section{
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.copyright_section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3% 10% 0.3% 10%;
+    color: rgba(56,49,68,.6);
+    background-image: linear-gradient(309deg,#fff,#e2dfec 81%,#e1dfec);
+    border-top: 2px solid grey;
+}
+
+.copyright_section_content{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    gap: 12px;
+    font-weight: 500;
+}
+
+.dot{
+    font-size: 20px;
+}
+
+.social_media_logo_twt{
+   width: 3%;
+}
+
+.social_media_logo_fb{
+    width: 1.8%;
+ }
+
+ .grid_content{
+    text-align:start;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr)
+ }
+
+ @media screen and (max-width : 1010px){
+
+    .boatImage{
+        width: 6%;
+        margin-bottom:-18px;
+        object-fit: cover
+    }
+
+ }
+
+ @media screen and (max-width : 775px){
+
+    .Footer_main_box{
+        padding: 2% 5% 2% 5%;
+    }
+
+    .boatImage{
+        width: 8%;
+        margin-bottom: -20px;
+    }
+
+    .Footer_Box{
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+
+    .Footer_content_Box1{
+        width: 100%;
+        padding: 0% 15% 0% 15%;
+        align-items: center;
+        margin:auto;
+    }
+
+    .Footer_content_Box2{
+        width: 100%;
+        align-items: center;
+    }
+
+    .grid_content{
+        text-align:center;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr)
+     }
+
+     .memoryLogo_Box{
+        margin: auto;
+     }
+
+     .spacerDiv{
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+     }
+
+     .achievements{
+        margin: auto;
+     }
+
+     .GetStartedButton{
+        justify-content: center;
+     }
+
+     .storesImgBox{
+        margin: auto;
+        justify-content: space-around;
+        margin-bottom: 25px;
+     }
+
+     .getTimelyHeading{
+        margin: auto;
+        text-align: center;
+     }
+
+     .copyright_section_content{
+        font-size: 10px;
+     }
+
+ }
+
+ @media screen and (max-width:450px){
+
+    .grid_content{
+        text-align:center;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(1, 1fr)
+     }
+
+     .boatImage{
+        width: 15%;
+        margin-bottom: -16px;
+    }
+
+    .Footer_content_Box1{
+        width: 100%;
+        padding: 0% 10% 0% 10%;
+        align-items: center;
+        margin:auto;
+    }
+
+    .copyright_section{
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    .copyright_section_content{
+        font-size: 6px;
+     }
+
+ }

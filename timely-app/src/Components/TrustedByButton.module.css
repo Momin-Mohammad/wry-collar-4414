@@ -1,0 +1,47 @@
+.TrustedByButton_Box{
+    border-radius: 8px;
+    color: black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    text-align: center;
+    margin: auto;
+    align-content: center;
+    width: 70%;
+    padding: 3%;
+    margin: 20px 0px 20px 0px;
+}
+
+.TrustedByButton_Box:hover{
+   background-color: #8a3ffc;
+   color: white;
+   border-right: 2px solid black;
+   border-bottom: 2px solid black;
+   border-top: 4px solid black;
+   border-left: 4px solid black;
+}
+
+.TrustedByButton_logo{
+    margin: auto;
+    width: 15%;
+}
+
+.TrustedByButton_text{
+    font-size: 16px;
+  
+}
+
+@media screen and (max-width : 1100) {
+    .TrustedByButton_text{
+        font-size: 14px;
+      
+    }
+}
+
+@media screen and (max-width : 700) {
+    .TrustedByButton_text{
+        font-size: 12px;
+      
+    }
+}

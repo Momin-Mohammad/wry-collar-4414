@@ -1,0 +1,343 @@
+.HomePage_purpleBox{
+    position: relative;
+    background-image: linear-gradient(315deg,
+    #9269d1 8%, rgba(98, 34, 195, 0.92) 50%);       
+}
+
+.Intro_Box{
+    display: flex;
+    padding: 3% 10% 0% 10%; 
+}
+
+.Intro_Box1{
+    text-align: start;
+}
+
+.Intro_Heading{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 4.3rem;
+    font-weight:800;
+    color: white;
+    line-height: 4.5rem;
+}
+
+.timeTracking{
+    font-weight: 400;
+    font-size: 17px;
+    color: white;
+}
+
+.Timely_Automate{
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    width: 90%;
+}
+
+.GetStartedButton{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.GetStartedButton > Button{
+    background-color: white;
+    color: #001141;
+    box-shadow: rgba(0, 0, 0, 0.25) 1.95px 1.95px 2.6px;
+  }
+
+  .GetStartedButton > Button:hover{
+    background-color: #001141;
+    color: white;
+  }
+
+.Intro_benefits{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.Intro_image_Box{
+    margin-top: -20px;
+}
+
+.automate_TimeT{
+    width:80%;
+    margin: auto;
+    padding: 2% 10% 2% 10%;
+    align-items: center;
+}
+
+.TT_Heading{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #001141;
+}
+
+.TT_para{
+    margin: 20px 0px 20px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #383144cc;
+}
+
+.How_it_works{
+    font-size: 14px;
+}
+
+.HowItWorks_content{
+    padding: 0% 10% 3% 10%;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.MainPage_Features_MainBox{
+    padding: 0% 10% 3% 10%;
+}
+
+.MainPage_Features_Box{
+    background-image: url("https://assets-global.website-files.com/5db165cbf782f992df567ae5/60f835b74a8c5743d88a28b8_lines-home.svg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.connectYourStack_MainBox{
+    background-color: #6929c4;
+    background-color: radial-gradient(circle farthest-corner at 50% 50%,#7738d6 49%,rgba(28,0,71,.48));
+    padding:3% 10% 3% 10%
+}
+
+.connectYourStack_Box{
+    color: white;
+    margin: auto;
+    width: 80%;
+    /* background-image: url("https://assets-global.website-files.com/6257f2528a39952d4e8af286/6257f2528a39954d108af5d7_circle2.svg");
+    background-repeat: no-repeat; */
+}
+
+.connectYourStack_title{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.connectYourStack_desc{
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.SeeIntegration{
+    font-size: 14px;
+}
+
+.SeeIntegration:hover{
+    color:cyan
+}
+
+.timely_arrow{
+    margin: auto;
+   align-items: center;
+}
+
+.timely_arrow > Image{
+    margin: auto;
+}
+
+.connectYourStack_Grid{
+    margin: 3% 0% 3% 0%;
+    text-align: center;
+    gap : 40px;
+  grid-template-rows:repeat(3, 1fr);
+  grid-template-columns:repeat(6, 1fr);
+}
+
+.GridItem_logo{
+    padding: 3px;
+    margin: auto;
+    width: 50%;
+    align-items: center;
+}
+
+.GridItem_logo:hover{
+    padding: 0px;
+}
+
+.TrustedBy_MainBox{
+    padding: 3% 10% 3% 10%;
+    color: #001141;
+}
+
+.TrustedBy_IntroBox{
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+.TrustedBy_Img{
+    width: 10%;
+  margin: auto;
+}
+
+.TrustedBy_desc{
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.TrustedBy_Btns{
+    grid-template-columns: repeat(5,1fr)
+}
+
+.TrustedByButton_Grid{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width : 1170px){
+
+    .automate_TimeT{
+        width:83%;
+    }
+    
+    .TT_Heading{
+        font-size: 1.6rem;
+    }
+    
+    .TT_para{
+        font-size: 16px;
+    }
+    
+    .How_it_works{
+        font-size: 12px;
+    }
+
+    .Intro_Heading{
+        font-size: 2.5rem;
+        line-height: 2.7rem;
+    }
+
+    .Timely_Automate{
+        font-weight: 400;
+        font-size: 15px;
+        color: white;
+        width: 90%;
+    }
+
+    .Intro_benefits{
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .connectYourStack_Box{
+        width: 100%;
+    }
+
+    .GridItem_logo{
+        width: 60%;
+    }
+
+    .connectYourStack_desc{
+        font-size: 16px;
+      }
+
+      .TrustedBy_desc{
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width : 860px) {
+
+    .automate_TimeT{
+        width:90%;
+    }
+    
+    .TT_Heading{
+        font-size: 1.6rem;
+    }
+    
+    .TT_para{
+        font-size: 16px;
+    }
+    
+    .How_it_works{
+        font-size: 12px;
+    }
+
+    .Intro_Box{
+        display: block;
+        margin: auto;
+    }
+
+    .Intro_Box1{
+        text-align: center;
+    }
+
+    .Intro_benefits{
+        justify-content: center;
+    }
+
+    .GetStartedButton > Button{
+       width: 100%;
+      }
+
+      .Intro_image_Box{
+       margin: auto;
+       width: 40%;
+    }
+
+    .HowItWorks_content{
+        display: block;
+        margin: auto;
+    }
+
+    .connectYourStack_title{
+        font-size: 1.8rem;
+    }
+
+    .connectYourStack_Grid{
+        gap : 40px;
+      grid-template-rows:repeat(6, 1fr);
+      grid-template-columns:repeat(3, 1fr);
+    }
+
+    .GridItem_logo{
+        width: 40%;
+    }
+
+    .connectYourStack_desc{
+        font-size: 15px;
+      }
+
+      .TrustedBy_desc{
+        font-size: 14px;
+    }
+
+    .TrustedBy_Img{
+        width: 15%;
+    }
+
+    .TrustedBy_Btns{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2, 1fr) ;
+    }
+    
+}
+
+@media screen and (max-width : 600px) {
+
+    .TrustedBy_Img{
+        width: 20%;
+    }
+
+    .TrustedBy_Btns{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3, 1fr) ;
+    }
+    
+}

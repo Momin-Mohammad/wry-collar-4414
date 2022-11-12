@@ -1,0 +1,98 @@
+.MainPageFeature_Box{
+   display: flex;
+   height: 35%;
+   justify-content: space-between;
+   align-items: center;
+   color: #001141;
+   padding: 15% 0% 15% 0%;
+}
+
+.MainPageFeature_Img{
+   border-radius: 12px;
+   width: 45%;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.MainPageFeature_Img > video{
+   border-radius: 12px;
+}
+
+.MainPageFeature_content{
+   text-align: start;
+   width: 50%;
+   background-color: white;
+}
+
+.MainPageFeature_title{
+   font-size: 2.3rem;
+   font-weight: 800;
+}
+
+.MainPageFeature_desc{
+   font-size:18px;
+   width: 75%;
+   margin-top: 15px;
+}
+
+@media screen and (max-width : 1330px){
+   
+   .MainPageFeature_title{
+      font-size: 1.8rem;
+   }
+   
+   .MainPageFeature_desc{
+      font-size:15px;
+   }
+
+}
+
+@media screen and (max-width : 1070px){
+   
+   .MainPageFeature_title{
+      font-size: 1.5rem;
+   }
+   
+   .MainPageFeature_desc{
+      font-size:13px;
+   }
+
+}
+
+@media screen and (max-width : 990px){
+   
+   .MainPageFeature_Box{
+      display: block;
+      margin: auto;
+      align-items: center;
+   }
+
+   .MainPageFeature_Img{
+     margin: auto;
+     margin-bottom: 20px;
+     width: 85%;
+     align-items: center;
+   }
+
+   .MainPageFeature_content{
+      margin: auto;
+      width: 100%;
+      text-align: center;
+
+   }
+
+   .MainPageFeature_title{
+      font-size: 2rem;
+      margin-bottom: 20px;
+   }
+
+   .MainPageFeature_desc{
+      width: 100%;
+      margin: auto;
+     text-align: center;
+   }
+
+   .MainPageFeature_desc{
+      font-size:16px;
+   }
+
+}

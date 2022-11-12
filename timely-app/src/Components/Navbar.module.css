@@ -1,0 +1,80 @@
+.logo{
+    width: 8rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.logo_part{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.logo_part > img{
+    width: 9rem;
+    height: 1.1rem;
+    border-radius: 0.2rem;
+    border: 1px solid white;
+    box-shadow: 3px 3px 3px 0 rgb(0 17 65 / 15%);
+    margin-bottom: 5px;
+}
+
+.navbar_content{
+    display: flex;
+    align-items:baseline;
+    font-size: 15.84px;
+    gap: 1rem;
+    margin-bottom: -1.5rem;
+}
+
+/* .memory_logo{
+    margin: auto;
+   margin-bottom: -1.5rem;
+} */
+
+.menuStyle{
+    font-size : 15.85px;
+    font-weight : 600
+}
+
+.menuStyle:hover{
+    color: #9b72da;
+}
+
+.submenu:hover{
+    color: #9b72da;
+}
+
+.getStartedBtn{
+    color: white;
+    padding: 25px
+}
+
+.getStartedBtn:hover{
+    box-shadow: rgb(0, 48, 0) 2px 0px 0px 2px inset;
+    color: #001141;
+}
+
+@media screen and (max-width : 1310px){
+
+.navbar_content{
+    gap:0.75rem
+}
+
+  .menuStyle{
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width : 1180px){
+
+    .navbar_content{
+        gap:0.3rem
+    }
+
+    .menuStyle{
+      font-size: 12px;
+      font-weight: 600;
+    }
+  }
