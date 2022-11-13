@@ -1,0 +1,94 @@
+.LoginForm_MainBox{
+ background-color: #f2f4f8;
+ border-radius: 30px;
+ padding: 4% 3% 4% 3%;
+ width: 55%;
+}
+
+.LoginForm_Input{
+    display: flex;
+    border: 2px solid #A2A9B0;
+    border-radius: 16px;
+    font-size: 18px;
+    padding: 10px 22px;
+    width: 100%;
+    background-color: white;
+    height: 62px;
+    box-shadow: none;
+    color: #697077;
+    font-weight: 400;
+    font-family: "Circular", -apple-system, BlinkMacSystemFont, system, sans-serif;
+    margin-bottom: 15px;
+}
+
+.LoginForm_SubmitButton{
+    border-radius: 16px;
+    font-size: 18px;
+    padding: 10px 22px;
+    width: 100%;
+    background: #00d68c;
+    height: 62px;
+    box-shadow: none;
+    color:white;
+    font-weight: 600;
+    font-family: "Circular", -apple-system, BlinkMacSystemFont, system, sans-serif;
+}
+
+.LoginForm_SubmitButton:hover{
+   background: #06c17f;
+}
+
+.LoginForm_ForgotPassword{
+    color: #00d68c;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 25px 0px 25px 0px;
+}
+
+.LoginForm_Or{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color:#A2A9B0;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.LoginForm_div{
+    height: 1.8px;
+    width: 45%;
+    background-color:#A2A9B0;
+}
+
+.LoginForm_Text{
+    color: black;
+    font-weight: 600;
+    margin: auto;
+}
+
+.LoginForm_EndText{
+    font-size: 16px;
+    font-weight: 600;
+    color: #A2A9B0;
+}
+
+@media screen and (max-width : 1150px) {
+
+    .LoginForm_MainBox{
+        width: 80%;
+       }
+
+       .LoginForm_MainBox{
+      margin: auto;
+       }
+    
+}
+
+@media screen and (max-width : 990px){
+
+    .LoginForm_MainBox{
+        width: 100%;
+       }
+
+}

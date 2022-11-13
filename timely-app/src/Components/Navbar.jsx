@@ -14,14 +14,21 @@ export default function Navbar(){
 
   useEffect(()=>{
 
-    if(window.innerWidth < 990){
+    function Resize(){
+     let width = window.innerWidth;
+     console.log(window.innerWidth,width);
+     
+     if(width <= 990){
       setNav(<CompNav/>);
     }
     else{
       setNav(<ExpNav/>)
     }
+    }
+
+    window.addEventListener('resize', Resize)
     
-  },[window.innerWidth])
+  },[])
 
     return(
 

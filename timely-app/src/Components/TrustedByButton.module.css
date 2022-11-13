@@ -7,8 +7,7 @@
     border-bottom: 4px solid black;
     text-align: center;
     margin: auto;
-    align-content: center;
-    width: 70%;
+    width: 75%;
     padding: 3%;
     margin: 20px 0px 20px 0px;
 }
@@ -25,11 +24,16 @@
 .TrustedByButton_logo{
     margin: auto;
     width: 15%;
+    margin-top: 10%;
 }
 
 .TrustedByButton_text{
     font-size: 16px;
   
+}
+
+.TrustedByButton_textBox{
+    margin-bottom: 10%;
 }
 
 @media screen and (max-width : 1100) {

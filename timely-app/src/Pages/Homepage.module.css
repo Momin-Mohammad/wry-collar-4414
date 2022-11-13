@@ -197,6 +197,12 @@
     justify-content: center;
 }
 
+.TryTime{
+    padding: 0% 10% 0% 10%;
+    background-color: #6929c4;
+    background-image: radial-gradient(circle farthest-corner at 50% 50%,#8a3ffc,#6929c4 67%);
+}
+
 
 @media screen and (max-width : 1170px){
 

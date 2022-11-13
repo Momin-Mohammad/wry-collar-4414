@@ -1,0 +1,44 @@
+.LoginPageFeedback_MainBox{
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.LoginPageFeedback_quote{
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.LoginPageFeedback_person{
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+@media screen and (max-width : 990px) {
+
+    .LoginPageFeedback_MainBox{
+        width: 100%;
+    }
+
+    .LoginPageFeedback_quote{
+        font-size: 17px;
+    }
+    
+    .LoginPageFeedback_person{
+        font-size: 13px;
+    }
+    
+}
+
+@media screen and (max-width : 500px) {
+
+    .LoginPageFeedback_quote{
+        font-size: 13px;
+    }
+    
+    .LoginPageFeedback_person{
+        font-size: 11px;
+    }
+    
+}

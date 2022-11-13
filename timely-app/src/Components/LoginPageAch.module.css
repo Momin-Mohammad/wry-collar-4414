@@ -1,0 +1,11 @@
+.Achievements{
+    padding: 0% 10% 0% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0px 25px 0px;
+}
+
+.Achievements_Image{
+    width: 25%;
+}

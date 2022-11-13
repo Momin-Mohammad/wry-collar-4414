@@ -1,5 +1,4 @@
 import './App.css';
-import Footer from './Components/Footer';
 import AllRoutes from './Routes/AllRoutes';
 
 function App() {
@@ -7,7 +6,6 @@ function App() {
     <div className="App">
       <header className="App-header">
        <AllRoutes />
-       <Footer/>
       </header>
     </div>
   );

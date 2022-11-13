@@ -2,13 +2,16 @@ import { Box, Grid, GridItem, Image, Text } from "@chakra-ui/react";
 import { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import Achievements from "../Components/Achievements";
 import GetStartedButton from "../Components/Button";
+import Footer from "../Components/Footer";
 import HowItWorks from "../Components/HowItWorks";
 import MainPageFeatureImg from "../Components/MainPageFeatureImg";
 import MainPageFeatureVid from "../Components/MainPageFeatureVid";
 import Navbar from "../Components/Navbar";
 import TrustedByButton from "../Components/TrustedByButton";
 import TrustedByComp from "../Components/TrustedByComp";
+import TryTime from "../Components/TryTime";
 import { getHowItWorksContent, getTrustedByContent } from "../utilties";
 import styles from "./Homepage.module.css"
 
@@ -194,6 +197,13 @@ export default function HomePage(){
 
                  </Box>
 
+                 {/* Try Timely Today */}
+                 <Achievements />
+                 <Box className={styles.TryTime} >
+                   <TryTime />
+                 </Box>
+ 
+  <Footer/>
         </Box>
     )
 }

@@ -1,0 +1,197 @@
+
+.TryTime_Box{
+    align-items: flex-start;
+   text-align: center;
+    color: white;
+    font-size: 18px;
+    background-image: url("https://assets-global.website-files.com/6257f2528a39952d4e8af286/6257f2528a39955f428af2ba_timely---a.svg");
+    background-repeat: no-repeat;
+    margin-top: 3%;
+    border: 2px solid transparent;
+}
+
+.TryTime_Heading{
+   font-size: 3.8rem;
+   font-weight: 800;
+   margin-top: 3%;
+}
+
+.TryTime_FeatureBox{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.TryTime_Intro_benefits{
+        display: flex;
+        justify-content: flex-start;
+        gap: 8px;
+        font-size: 14px;
+        color: white;
+        font-weight: 400;
+        line-height: 20px;
+}
+
+.GetStartedButton{
+    height: 70px;
+    margin: 20px 0px 20px 0px;
+}
+
+.GetStartedButton > Button{
+    width: 15%;
+    height: 100%;
+    font-size: 20px;
+    color: #001141;
+    background-color: white;
+    border-left: 4px solid black;
+    border-top: 4px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.GetStartedButton > Button:hover{
+    color: white;
+    background-color:#8a3ffc;
+
+}
+
+.TryTime_EndText{
+  margin-bottom: 7%;
+}
+
+@media screen and (max-width : 1300px) {
+   
+    .TryTime_FeatureBox{
+        width: 80%;
+    }
+
+    .TryTime_Intro_benefits{
+        font-size: 13px;
+        line-height: 20px;
+}
+
+}
+
+@media screen and (max-width : 1110px) {
+
+    .TryTime_Box{
+        font-size: 15px;
+    }
+
+    .TryTime_Heading{
+        font-size: 3.5rem;
+     }
+   
+    .TryTime_FeatureBox{
+        width: 90%;
+    }
+
+    .TryTime_Intro_benefits{
+        font-size: 13px;
+        line-height: 20px;
+}
+
+.TryTime_EndText{
+    margin-bottom: 7%;
+    font-size: 14px;
+  }
+
+  .GetStartedButton > Button{
+    font-size: 17px;
+    height: 80%;
+    width: 20%;
+}
+
+}
+
+@media screen and (max-width : 990px) {
+
+    .TryTime_FeatureBox{
+        margin: auto;
+        display: block;
+        width: 90%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        justify-content: center;
+    }
+
+    .TryTime_Intro_benefits{
+        width: fit-content;
+         margin: auto;
+         line-height: 20px;
+}
+
+    .TryTime_Box{
+        font-size: 15px;
+    }
+
+    .TryTime_Heading{
+        font-size: 3rem;
+     }
+
+.TryTime_EndText{
+    font-size: 14px;
+  }
+
+  .GetStartedButton > Button{
+    font-size: 18px;
+    height: 80%;
+    width: 30%;
+}
+
+}
+
+
+@media screen and (max-width : 600px) {
+
+    .TryTime_FeatureBox{
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .TryTime_Box{
+        font-size: 15px;
+    }
+
+    .TryTime_Heading{
+        font-size: 2.5rem;
+     }
+
+.TryTime_EndText{
+    font-size: 13px;
+  }
+
+  .GetStartedButton > Button{
+    font-size: 18px;
+    height: 80%;
+    width: 100%;
+}
+
+.TryTime_Intro_benefits{
+    font-size: 10px;
+    line-height: 20px;
+}
+
+}
+
+@media screen and (max-width : 470px) {
+
+    .TryTime_Box{
+        font-size: 13px;
+    }
+
+    .TryTime_Heading{
+        font-size: 2rem;
+     }
+
+.TryTime_EndText{
+    font-size: 11px;
+  }
+
+  .GetStartedButton > Button{
+    font-size: 15px;
+}
+
+}
