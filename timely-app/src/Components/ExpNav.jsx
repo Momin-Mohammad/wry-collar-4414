@@ -1,4 +1,4 @@
-import { Box, Button, Menu, MenuButton, MenuItem, MenuList, Text } from '@chakra-ui/react';
+import { Box, Button, Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/react';
 import {ChevronDownIcon } from "@chakra-ui/icons";
 //import {FaStarHalf} from "react-icons/fa"
 import styles from "./Navbar.module.css";
@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 import GetStartedButton from './Button';
 
 const menuStyle2={
-    _hover:"transparent",
     background:"transparent"
   }
 
@@ -16,11 +15,16 @@ const submenu2={
 }
 
 export default function ExpNav(){
+
+  // const openInNewTab = url => {
+  //   window.open(url, '_blank', 'noopener,noreferrer');
+  // };
+
   return(
     <Box className={styles.navbar_content} >
         
         <Menu>
-      <MenuButton style={menuStyle2} bg="transparent" as={Button} rightIcon={<ChevronDownIcon />}>
+      <MenuButton style={menuStyle2} as={Button} rightIcon={<ChevronDownIcon />}>
        <Box className={styles.menuStyle} > Features </Box>
       </MenuButton>
       <MenuList>
@@ -65,7 +69,7 @@ export default function ExpNav(){
     </Menu>
     
     <Menu>
-      <MenuButton style={menuStyle2} bg="transparent" as={Button} rightIcon={<ChevronDownIcon />}>
+      <MenuButton style={menuStyle2} as={Button} rightIcon={<ChevronDownIcon />}>
        <Box  className={styles.menuStyle}>Solutions</Box>
       </MenuButton>
       <MenuList display="flex" >
@@ -142,10 +146,10 @@ export default function ExpNav(){
       </MenuList>
     </Menu>
     
-    <Link className={styles.menuStyle} bg="transparent" to="/pricing">Pricing Page</Link>
+    <Link className={styles.menuStyle} to="/pricing">Pricing Page</Link>
     
      <Menu>
-      <MenuButton style={menuStyle2} bg="transparent" as={Button} rightIcon={<ChevronDownIcon />}>
+      <MenuButton style={menuStyle2} as={Button} rightIcon={<ChevronDownIcon />}>
         <Box className={styles.menuStyle} >Resources</Box>
       </MenuButton>
       <MenuList >
@@ -194,9 +198,9 @@ export default function ExpNav(){
         </MenuList>
     </Menu>
     
-    <Link className={styles.menuStyle} bg="transparent" to="*">Talk to sales</Link>
+    <Link className={styles.menuStyle} to="*">Talk to sales</Link>
     
-       <Link className={styles.menuStyle} to="/login">
+       <Link  className={styles.menuStyle} to="/login" target="_blank" rel="noopener norefferer">
           Login
           </Link>
     

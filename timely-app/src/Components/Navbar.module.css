@@ -1,3 +1,14 @@
+.Navbar_position{
+    margin: auto;
+    width: 100%;
+    position: fixed;
+    padding: 1% 10% 1% 10%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    
+}
+
 .logo{
     width: 8rem;
     display: flex;
@@ -27,11 +38,6 @@
     margin-bottom: -1.5rem;
 }
 
-/* .memory_logo{
-    margin: auto;
-   margin-bottom: -1.5rem;
-} */
-
 .menuStyle{
     font-size : 15.85px;
     font-weight : 600
@@ -47,12 +53,17 @@
 
 .getStartedBtn{
     color: white;
-    padding: 25px
 }
 
 .getStartedBtn:hover{
     box-shadow: rgb(0, 48, 0) 2px 0px 0px 2px inset;
     color: #001141;
+}
+
+.new_feature{
+    color: red;
+    font-weight: 600;
+    margin-left: 65px;
 }
 
 @media screen and (max-width : 1310px){
@@ -61,8 +72,12 @@
     gap:0.75rem
 }
 
+.submenu{
+    font-size:13px;
+}
+
   .menuStyle{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
   }
 }
@@ -73,8 +88,27 @@
         gap:0.3rem
     }
 
+    .submenu{
+        font-size:12px;
+    }
+
     .menuStyle{
       font-size: 12px;
       font-weight: 600;
     }
+  }
+
+  @media screen and (max-width : 1060px){
+
+    .menuStyle{
+      font-size: 10.5px;
+    }
+  }
+
+  @media screen and (max-width : 490px) {
+    
+  .CompNav_GettingStartedButton{
+    width: 100%;
+  }
+
   }

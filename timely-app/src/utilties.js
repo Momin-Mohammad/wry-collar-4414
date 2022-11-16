@@ -11,3 +11,7 @@ export const getHowItWorksContent=()=>{
 export const getTrustedByContent=()=>{
     return axios.get("https://my-mock-data.herokuapp.com/mainPage_TrustedBy");
 }
+
+export const getTimeTrackPageContent=()=>{
+    return axios.get("https://my-mock-data.herokuapp.com/FeaturePage_Benefits");
+}

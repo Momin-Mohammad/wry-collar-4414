@@ -1,4 +1,4 @@
-import { Box, Grid, GridItem, Heading, Image, Stack, Text } from "@chakra-ui/react";
+import { Box, Grid, GridItem, Image, Stack, Text } from "@chakra-ui/react";
 import { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -13,7 +13,6 @@ export default function Footer(){
 
   useEffect(()=>{
    getFooterContent().then(res=>{
-    console.log(res.data)
     setFooterData(res.data);
    }).catch(err=>{
     console.log(err)

@@ -1,0 +1,8 @@
+.BrokenPage{
+padding: 10% 10% 10% 20%;
+background-image: radial-gradient(circle farthest-corner at 50% 50%,#8a3ffc,#6929c4 67%);
+align-items: center;
+font-size:larger;
+font-weight: 600;
+color: white;
+}

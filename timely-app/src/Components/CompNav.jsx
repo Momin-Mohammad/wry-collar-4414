@@ -1,5 +1,5 @@
 import { Box, Button, IconButton, Menu, MenuButton, MenuItem, MenuList } from '@chakra-ui/react';
-import {ChevronDownIcon, HamburgerIcon, RepeatClockIcon, TimeIcon} from "@chakra-ui/icons";
+import {ChevronDownIcon, HamburgerIcon } from "@chakra-ui/icons";
 import styles from "./Navbar.module.css";
 import { Link } from 'react-router-dom';
 import GetStartedButton from './Button';
@@ -7,11 +7,14 @@ import GetStartedButton from './Button';
 const menuStyle2={
     _hover:"transparent",
     background:"transparent",
+    fontWeight : 600,
+    fontSize : '16px',
+    marginLeft:"20px"
   }
 
   const submenu2={
     _hover:"transparent",
-    background:"transparent"
+    background:"transparent",
   }
 
 export default function CompNav(){
@@ -27,7 +30,7 @@ export default function CompNav(){
     variant='outline'
   />
 
-<MenuList w="full">
+<MenuList w="100vw">
    <Menu> 
    <MenuItem>
 
@@ -35,16 +38,16 @@ export default function CompNav(){
       <MenuButton className={styles.menuStyle} style={menuStyle2} bg="transparent" as={Button} rightIcon={<ChevronDownIcon />}>
         Features
       </MenuButton>
-      <MenuList>
+      <MenuList w="100vw">
         <MenuItem>
         <Link className={styles.submenu} style={submenu2} to="/features/time-tracking">
-        <Box> <TimeIcon/> Track time</Box>
+        <Box> Track time</Box>
         </Link>
         </MenuItem>
     
         <MenuItem>
         <Link className={styles.submenu} style={submenu2} to="*">
-        <Box> <RepeatClockIcon/> Track projects</Box>
+        <Box> Track projects</Box>
         </Link>
         </MenuItem>
     
@@ -82,7 +85,7 @@ export default function CompNav(){
       <MenuButton className={styles.menuStyle} style={menuStyle2} bg="transparent" as={Button} rightIcon={<ChevronDownIcon />}>
         Solutions
       </MenuButton>
-      <MenuList display="flex" >
+      <MenuList display="flex"  w="100vw">
         <Box>
         <MenuItem>
         <Link className={styles.submenu} style={submenu2} to="*">
@@ -166,7 +169,7 @@ export default function CompNav(){
       <MenuButton className={styles.menuStyle} style={menuStyle2} bg="transparent" as={Button} rightIcon={<ChevronDownIcon />}>
         Resources
       </MenuButton>
-      <MenuList >
+      <MenuList w="100vw">
         <MenuItem>
         <Link className={styles.submenu} style={submenu2} to="*">
         <Box>Blog</Box>
@@ -218,11 +221,11 @@ export default function CompNav(){
     </MenuItem>
     
     <MenuItem>
-    <Link style={menuStyle2} to="/login">Login</Link>
+    <Link style={menuStyle2} to="/login" target="_blank" rel="noopener norefferer">Login</Link>
     </MenuItem>
     
     <MenuItem>
-   <GetStartedButton/>
+   <GetStartedButton className={styles.CompNav_GettingStartedButton} />
     </MenuItem>
     
     <MenuItem>

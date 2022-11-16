@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Menu, MenuButton, MenuItem, MenuList, Spacer } from '@chakra-ui/react';
+import { Box, Flex, Spacer } from '@chakra-ui/react';
 import { Link } from 'react-router-dom';
 import styles from "./Navbar.module.css";
 import ExpNav from './ExpNav';
@@ -16,7 +16,6 @@ export default function Navbar(){
 
     function Resize(){
      let width = window.innerWidth;
-     console.log(window.innerWidth,width);
      
      if(width <= 990){
       setNav(<CompNav/>);
@@ -32,7 +31,7 @@ export default function Navbar(){
 
     return(
 
-        <Flex paddingLeft='10%' paddingRight='10%' paddingBottom='1%' alignItems='center' gap='2'>
+        <Flex className={styles.Navbar_position}>
 
         <Box p='2'>  
       <Link  className={styles.logo} to="/">
