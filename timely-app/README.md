@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Timely App - The TIME tracking application.
+Hello eveyone! My name is Mohammad Momin an aspiring Full Stack Web Developer. As part of a project at Masai School, I have clone some pages of the Timely App website.
+Look at the website :[Timely](https://timely-app.vercel.app)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Features 
+* Responsive website
+* Two different responsive Navbar styles based on screen size
+* Smooth operation and pleasing css
 
-## Available Scripts
+# Screenshots
+1. Home Page
+![homepage1](https://user-images.githubusercontent.com/103980190/201533631-156786e3-2dea-4222-92e1-a71f8211a9ff.png)
+![Homepage2](https://user-images.githubusercontent.com/103980190/201533424-9eefb1b7-b72b-4bab-9eeb-9cfa6cc8e0da.png)
+![Homepage3](https://user-images.githubusercontent.com/103980190/201533433-39ef67ee-7d86-4b7e-a0c3-8fb1cc61e800.png)
 
-In the project directory, you can run:
+2. Login Page
+![Loginpage](https://user-images.githubusercontent.com/103980190/201533493-5d1f93bc-28a3-4dee-8ec2-230d78a32c2b.png)
 
-### `npm start`
+# Tech Stack
+1. React
+2. Chakra UI
+3. HTML
+4. CSS
+5. JS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Connect with me
+* [Mohammad Momin](https://github.com/Momin-Mohammad)
 
-### `npm test`
+# Feedback
+Feedbacks are what make us improve. If you have any feedback or query, kindly reach out to - mohammadit177@gmail.com
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
