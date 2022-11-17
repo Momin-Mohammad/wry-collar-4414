@@ -1,4 +1,4 @@
-import { Box, Button, Image, Text } from "@chakra-ui/react";
+import { Box, Image, Text } from "@chakra-ui/react";
 import styles from "./TrustedByButton.module.css"
 
 export default function TrustedByButton(props){
