@@ -16,10 +16,6 @@ const submenu2={
 
 export default function ExpNav(){
 
-  // const openInNewTab = url => {
-  //   window.open(url, '_blank', 'noopener,noreferrer');
-  // };
-
   return(
     <Box className={styles.navbar_content} >
         
